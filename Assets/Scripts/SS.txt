@@ -1,0 +1,56 @@
+using UnityEngine;
+
+public class Move : MonoBehaviour
+{
+    [SerializeField] private float speed=5f;
+
+    private CharacterController agent;
+    float horizontalSpeed=30f;
+    float gravity=-9.81f;
+    float height=2f;
+
+    Vector3 playerVelovicty;
+    Attack attack;
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        attack=GetComponent<Attack>();
+        agent=GetComponent<CharacterController>();
+        Cursor.lockState=CursorLockMode.Locked;
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        //if(attack.isAttack) return;
+        if(Input.GetKeyDown(KeyCode.Space)) Jump();
+        playerVelovicty.y+=gravity*Time.deltaTime;
+
+        MoveController();
+        RotationController();
+
+        agent.Move(playerVelovicty*Time.deltaTime);
+    }
+
+    void MoveController(){
+        float horizontal=Input.GetAxis("Horizontal");
+        float vertical=Input.GetAxis("Vertical");
+
+        Vector3 step=transform.forward*vertical+transform.right*horizontal;
+
+        agent.Move(step*speed*Time.deltaTime);
+    }
+
+    void RotationController(){
+        float horizontal=horizontalSpeed*Input.GetAxis("Mouse X");
+        transform.Rotate(0f,horizontal,0f);
+    }
+
+    void Jump()
+    {
+        if (agent.isGrounded)
+        {
+            playerVelovicty.y=Mathf.Sqrt(height*(-3f)*gravity);
+        }
+    }
+}
