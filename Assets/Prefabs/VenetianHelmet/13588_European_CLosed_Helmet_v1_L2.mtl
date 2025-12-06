@@ -1,0 +1,82 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 27.02.2012 09:19:32
+
+newmtl _13588_European_CLosed_Helmet_v1_L2European_Closed_Helmet_1
+	Ns 70.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.8196 0.8196 0.8196
+	Kd 0.8196 0.8196 0.8196
+	Ks 0.7200 0.7200 0.7200
+	Ke 0.0000 0.0000 0.0000
+	map_Ka European_Closed_Helmet_diffuse.jpg
+	map_Kd European_Closed_Helmet_diffuse.jpg
+
+newmtl _13588_European_CLosed_Helmet_v1_L2European_Closed_Helmet_3
+	Ns 40.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.1765 0.1373 0.1059
+	Kd 0.1765 0.1373 0.1059
+	Ks 0.2700 0.2700 0.2700
+	Ke 0.0000 0.0000 0.0000
+	map_bump European_Closed_Helmet_bump.jpg
+	bump European_Closed_Helmet_bump.jpg
+
+newmtl _13588_European_CLosed_Helmet_v1_L2European_Closed_Helmet_2
+	Ns 70.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.9882 0.7961 0.4275
+	Kd 0.9882 0.7961 0.4275
+	Ks 0.7200 0.7200 0.7200
+	Ke 0.0000 0.0000 0.0000
+	map_Ka European_Closed_Helmet_diffuse_1.jpg
+	map_Kd European_Closed_Helmet_diffuse_1.jpg
+
+newmtl _13588_European_CLosed_Helmet_v1_L2European_Closed_Helmet_6
+	Ns 70.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.9882 0.7961 0.4275
+	Kd 0.9882 0.7961 0.4275
+	Ks 0.7200 0.7200 0.7200
+	Ke 0.0000 0.0000 0.0000
+
+newmtl _13588_European_CLosed_Helmet_v1_L2European_Closed_Helmet_5
+	Ns 40.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.1451 0.1451 0.1451
+	Kd 0.1451 0.1451 0.1451
+	Ks 0.2700 0.2700 0.2700
+	Ke 0.0000 0.0000 0.0000
+
+newmtl _13588_European_CLosed_Helmet_v1_L2European_Closed_Helmet_4
+	Ns 70.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.1020 0.1020 0.1020
+	Kd 0.1020 0.1020 0.1020
+	Ks 0.7200 0.7200 0.7200
+	Ke 0.0000 0.0000 0.0000
+	map_Ka European_Closed_Helmet_diffuse.jpg
+	map_Kd European_Closed_Helmet_diffuse.jpg

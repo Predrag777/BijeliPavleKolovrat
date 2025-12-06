@@ -1,0 +1,7 @@
+- Nhga Kee Taung is the Myanamar sword and can be use in any game you want
+- There are three type of sword include
+	- SwordBronze
+	- SwrodSilver
+	- SwrodGold
+- Contact me have any question
+	- director.akarit@gmail.com
